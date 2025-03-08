@@ -7,7 +7,11 @@
     "id": 0
   },
   "detail": {
-    "contributors": [],
+    "contributors": [
+      {
+        "name": "Senior Cybersecurity Engineer"
+      }
+    ],
     "diagrams": [
       {
         "id": 0,
