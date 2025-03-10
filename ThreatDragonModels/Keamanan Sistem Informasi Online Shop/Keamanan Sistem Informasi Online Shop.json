@@ -139,8 +139,8 @@
           },
           {
             "position": {
-              "x": 100,
-              "y": 483
+              "x": 130,
+              "y": 553
             },
             "size": {
               "width": 112.5,
@@ -255,8 +255,8 @@
           },
           {
             "position": {
-              "x": 630,
-              "y": 220
+              "x": 690,
+              "y": 200
             },
             "size": {
               "width": 120,
@@ -378,7 +378,7 @@
           },
           {
             "position": {
-              "x": 640,
+              "x": 690,
               "y": 320
             },
             "size": {
@@ -743,8 +743,8 @@
           },
           {
             "position": {
-              "x": 480,
-              "y": 463
+              "x": 510,
+              "y": 533
             },
             "size": {
               "width": 100,
@@ -1055,8 +1055,8 @@
             },
             "vertices": [
               {
-                "x": 360,
-                "y": 470
+                "x": 390,
+                "y": 540
               }
             ]
           },
@@ -1105,58 +1105,8 @@
             },
             "vertices": [
               {
-                "x": 360,
-                "y": 550
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Konfirmasi \nPembuatan Pesanan",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Konfirmasi \nPembuatan Pesanan"
-            ],
-            "id": "2e0ab603-ef57-4807-b1d3-80f3d5e0914a",
-            "source": {
-              "x": 630,
-              "y": 220
-            },
-            "target": {
-              "cell": "d13933bf-f034-460e-ab36-eed0dac26b9e",
-              "port": "e147c468-fd09-45f1-b60f-5213ceff3315"
-            },
-            "vertices": [
-              {
-                "x": 590,
-                "y": 190
+                "x": 390,
+                "y": 620
               }
             ]
           },
@@ -1280,100 +1230,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Memilih Metode & \nMemasukkan Detail \nPembayaran",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Memilih Metode & \nMemasukkan Detail \nPembayaran"
-            ],
-            "id": "0591f77b-05d2-461c-abdc-34e5c75a68f5",
-            "source": {
-              "cell": "b86e13d1-0eb1-436b-a62b-a2d38e72272c",
-              "port": "2bd786c9-76c9-446b-ad89-f27c12c2eefe"
-            },
-            "target": {
-              "cell": "0f8b5bcc-d863-4640-b282-e891ea80d0c0",
-              "port": "0d8ac27b-b4e9-4fd1-949c-94d91c888143"
-            },
-            "vertices": [
-              {
-                "x": 250,
-                "y": 180
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Menyimpan\nData Transaksi",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Menyimpan\nData Transaksi"
-            ],
-            "id": "50d766af-dc84-49d6-ba09-763f84925cab",
-            "source": {
-              "x": 450,
-              "y": 280
-            },
-            "target": {
-              "cell": "6075a04c-2b85-49ad-a3d3-25c77776cd1c",
-              "port": "bed67ff5-c41e-4959-9f2c-fed9429a05f7"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Mengirim\nPermintaan Validasi",
               "description": "",
               "outOfScope": false,
@@ -1399,8 +1255,8 @@
             },
             "vertices": [
               {
-                "x": 490,
-                "y": 380
+                "x": 520,
+                "y": 470
               }
             ]
           },
@@ -1440,8 +1296,8 @@
             ],
             "id": "b0e528f9-b023-4e31-b0c7-b366ad5d6724",
             "source": {
-              "x": 510,
-              "y": 463
+              "cell": "92ce0d6c-327e-472c-85c8-f14e41ff887e",
+              "port": "5811e6d7-a96f-4abe-8452-b30f8ee5345c"
             },
             "target": {
               "cell": "0f8b5bcc-d863-4640-b282-e891ea80d0c0",
@@ -1450,14 +1306,366 @@
             "vertices": [
               {
                 "x": 420,
-                "y": 430
+                "y": 500
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Memperbarui \nStatus \nTransaksi",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Memperbarui \nStatus \nTransaksi"
+            ],
+            "id": "31830c99-3aa3-4fa0-b079-432e89ca2988",
+            "source": {
+              "cell": "0f8b5bcc-d863-4640-b282-e891ea80d0c0",
+              "port": "447888ed-d9d3-452a-b6d2-35eefbe41c1e"
+            },
+            "target": {
+              "cell": "6075a04c-2b85-49ad-a3d3-25c77776cd1c",
+              "port": "bed67ff5-c41e-4959-9f2c-fed9429a05f7"
+            },
+            "vertices": [
+              {
+                "x": 590,
+                "y": 410
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Menyimpan\nData Transaksi",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Menyimpan\nData Transaksi"
+            ],
+            "id": "50d766af-dc84-49d6-ba09-763f84925cab",
+            "source": {
+              "cell": "0f8b5bcc-d863-4640-b282-e891ea80d0c0",
+              "port": "447888ed-d9d3-452a-b6d2-35eefbe41c1e"
+            },
+            "target": {
+              "cell": "6075a04c-2b85-49ad-a3d3-25c77776cd1c",
+              "port": "bed67ff5-c41e-4959-9f2c-fed9429a05f7"
+            },
+            "vertices": [
+              {
+                "x": 500,
+                "y": 310
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Mengirim Status\nPembayaran",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Mengirim Status\nPembayaran"
+            ],
+            "id": "671d903f-b1d3-4a84-865a-cc0e307115f2",
+            "source": {
+              "x": 343,
+              "y": 370
+            },
+            "target": {
+              "cell": "d13933bf-f034-460e-ab36-eed0dac26b9e",
+              "port": "e147c468-fd09-45f1-b60f-5213ceff3315"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Konfirmasi \nPembuatan Pesanan",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Konfirmasi \nPembuatan Pesanan"
+            ],
+            "id": "2e0ab603-ef57-4807-b1d3-80f3d5e0914a",
+            "source": {
+              "x": 690,
+              "y": 200
+            },
+            "target": {
+              "cell": "d13933bf-f034-460e-ab36-eed0dac26b9e",
+              "port": "e147c468-fd09-45f1-b60f-5213ceff3315"
+            },
+            "vertices": [
+              {
+                "x": 590,
+                "y": 190
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Memperbarui\nStatus Pesanan",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Memperbarui\nStatus Pesanan"
+            ],
+            "id": "d5b40e77-d219-4153-bdb9-a74893295f68",
+            "source": {
+              "x": 478,
+              "y": 160
+            },
+            "target": {
+              "cell": "4c69fa28-7ca5-4102-b232-7537b32e5179",
+              "port": "bed67ff5-c41e-4959-9f2c-fed9429a05f7"
+            },
+            "vertices": [
+              {
+                "x": 510,
+                "y": 250
+              },
+              {
+                "x": 610,
+                "y": 270
+              },
+              {
+                "x": 670,
+                "y": 250
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Mengirim Konfirmasi\nPembayaran & Status Pesanan",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Mengirim Konfirmasi\nPembayaran & Status Pesanan"
+            ],
+            "id": "e39b2b8b-c6ba-4ead-bb46-4a753c03478c",
+            "source": {
+              "x": 480,
+              "y": 50
+            },
+            "target": {
+              "cell": "b86e13d1-0eb1-436b-a62b-a2d38e72272c",
+              "port": "5f4ec035-c9c1-41f9-8450-3583ab3e3f9d"
+            },
+            "vertices": [
+              {
+                "x": 320,
+                "y": -20
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Memilih Metode & \nMemasukkan Detail \nPembayaran",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Memilih Metode & \nMemasukkan Detail \nPembayaran"
+            ],
+            "id": "0591f77b-05d2-461c-abdc-34e5c75a68f5",
+            "source": {
+              "cell": "b86e13d1-0eb1-436b-a62b-a2d38e72272c",
+              "port": "2bd786c9-76c9-446b-ad89-f27c12c2eefe"
+            },
+            "target": {
+              "cell": "0f8b5bcc-d863-4640-b282-e891ea80d0c0",
+              "port": "0d8ac27b-b4e9-4fd1-949c-94d91c888143"
+            },
+            "vertices": [
+              {
+                "x": 250,
+                "y": 180
               }
             ]
           },
           {
             "position": {
-              "x": 350,
-              "y": 230
+              "x": 242.5,
+              "y": 330
             },
             "size": {
               "width": 100,
@@ -1571,13 +1779,6 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           }
         ]
@@ -1585,6 +1786,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "Cybersecurity Architect",
-    "threatTop": 0
+    "threatTop": 1
   }
 }
