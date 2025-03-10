@@ -777,8 +777,8 @@
                 "text": "Payment\nGateway"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -874,12 +874,41 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "36f6aa5e-e63e-41d3-a844-c2749d127114",
+                  "title": "Pengguna Biasa Dapat Mengakses Hak Admin",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Elevation of privilege",
+                  "description": "Pengguna biasa bisa mengeksploitasi kelemahan sistem untuk mendapatkan hak admin dan mengubah status pesanan.",
+                  "mitigation": "- Terapkan Role-Based Access Control (RBAC) agar hanya admin yang bisa mengubah status pesanan.\n- Gunakan server-side authorization untuk memastikan hanya pengguna yang berhak dapat mengakses endpoint sensitif.\n- Validasi semua perubahan status pesanan melalui digital signature atau hashing.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 2
+              }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -1742,17 +1771,7 @@
                 "x": 390,
                 "y": 620
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "position": {
@@ -1878,6 +1897,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "Cybersecurity Architect",
-    "threatTop": 6
+    "threatTop": 8
   }
 }
